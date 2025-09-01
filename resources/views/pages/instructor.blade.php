@@ -21,11 +21,7 @@
         </div>
     </div>
 
-
-        @include('components.instructors')
-
-
-
+    @include('components.teachers')
 
    {{-- Home page view file with singleheading file -with--gapsection--}}
     @include('components.footer', [

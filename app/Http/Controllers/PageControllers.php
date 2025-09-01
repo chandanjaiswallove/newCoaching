@@ -11,7 +11,7 @@ class PageControllers extends Controller
     {
         return view("welcome");
     }
-    
+
     public function contact()
     {
         return view('pages.contactus');
@@ -21,11 +21,8 @@ class PageControllers extends Controller
     {
         return view('pages.aboutus');
     }
-     
-    public function instructor()
-    {
-        return view('components.instructors');
-    }
+
+
 
 
     public function gallery()
@@ -105,6 +102,11 @@ class PageControllers extends Controller
     public function course_nine()
     {
         return view('pages.course_nine');
+    }
+
+    public function instructor()
+    {
+        return view('pages.instructor');
     }
 
 }
