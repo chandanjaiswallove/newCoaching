@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/fav.png')}}">
+
   <style>
     :root {
       --primary:#553cdf;
@@ -144,7 +146,7 @@
           <label class="form-label">Role</label>
           <select class="form-select" id="loginRole" required>
             <option value="" disabled selected>Select Role</option>
-            <option value="student">Student</option>
+            <option value="assistant">Assistant</option>
             <option value="teacher">Teacher</option>
             <option value="admin">Admin</option>
           </select>

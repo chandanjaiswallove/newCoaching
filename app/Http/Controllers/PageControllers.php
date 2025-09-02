@@ -40,9 +40,9 @@ class PageControllers extends Controller
         return view('pages.allcourse');
     }
 
-    public function joinNow()
+    public function organizer()
     {
-        return view('pages.join_now');
+        return view('pages.organizer');
     }
 
 
@@ -107,6 +107,11 @@ class PageControllers extends Controller
     public function instructor()
     {
         return view('pages.instructor');
+    }
+
+    public function joinNow()
+    {
+        return view('pages.joinNow');
     }
 
 }

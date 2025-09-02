@@ -11,7 +11,7 @@ Route::get('/About-us', [PageControllers::class, 'about'])->name(name: 'about');
 Route::get('/Gallery', [PageControllers::class, 'gallery'])->name('gallery');
 Route::get('/Blogs', [PageControllers::class, 'blog'])->name('blog');
 Route::get('/AllCourses', [PageControllers::class, 'allcourse'])->name('allcourse');
-Route::get('JoinNow', [PageControllers::class, 'joinNow'])->name(('joinnow'));
+Route::get('Organizer', [PageControllers::class, 'organizer'])->name(('organizer'));
 Route::get('Results', [PageControllers::class, 'result'])->name(('result'));
 Route::get('/Events', [PageControllers::class, 'event'])->name('event');
 Route::get('/Developer@5vot', [PageControllers::class, 'developer'])->name('developer');
@@ -30,4 +30,5 @@ Route::get('/Category8', [PageControllers::class, 'course_eight'])->name('catego
 Route::get('/Category9', [PageControllers::class, 'course_nine'])->name('category9');
 
 Route::get('/Instructors', [PageControllers::class,'instructor'])->name('instructor');
+Route::get('/JoinNow', [PageControllers::class, 'joinNow'])->name('joinnow');
 
